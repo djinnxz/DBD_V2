@@ -1,0 +1,23 @@
+{
+  "name": "designbydev_v2",
+  "version": "2.0.0",
+  "description": "Web App Packages and Codes for DesignByDev",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "express-handlebars": "*"
+  },
+  "author": "Devin Wood",
+  "license": "ISC"
+}

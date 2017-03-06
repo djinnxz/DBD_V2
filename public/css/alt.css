@@ -1,0 +1,36 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background: url('https://source.unsplash.com/category/technology/1920x1080') center center fixed;
+}
+
+a {
+    transition: .5s ease;
+    display: block;
+    width: 50%;
+    padding: .5em;
+    border: 3px solid white;
+    text-decoration: none;
+}
+
+a:hover {
+    transition: .5s ease;
+    background: rgba(25, 25, 25, 0.5);
+}
+
+#container {
+    background-color: rgba(50, 50, 50, 0.35);
+    border: 1px solid white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 15em;
+}

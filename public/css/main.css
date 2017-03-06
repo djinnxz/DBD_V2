@@ -1,0 +1,388 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+.land {
+    min-height: 50%;
+}
+
+.landingContent {
+    color: white;
+    text-align: left;
+    padding: 16.5%;
+    background: rgba(50, 50, 50, 0.5);
+}
+
+.landingContent h1 {
+    text-shadow: 0px 6px 7px rgba(50, 50, 50, 1);
+    padding: 1em;
+    border: 5px solid orange;
+}
+
+.landingBG {
+
+}
+
+.landingBG img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    min-height: 50%;
+    filter: blur(2px);
+}
+
+nav {
+    padding: 1.5em;
+    background-color: #222;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+
+}
+
+nav ul li a {
+    transition: 0.5s ease;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    transition: 0.5s ease;
+    color: orange;
+}
+
+.welcomeContent {
+    padding: 5em;
+    background-color: white;
+}
+
+.welcomeContent h1 {
+    text-align: center;
+}
+
+.welcomeContent p {
+    max-width: 30em;
+    padding: .5em;
+}
+
+.welcomeContent img {
+    display: block;
+}
+
+.welcomeContent a {
+    transition: .5s ease;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: brown;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.welcomeContent a:hover {
+    transition: .5s ease;
+    background-color: white;
+    color: black;
+}
+
+.offeredContent {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    background-color: brown;
+    padding-bottom: 3em;
+}
+
+.offeredItem {
+    max-width: 15em;
+    text-align: center;
+    color: white;
+}
+
+.pimg img {
+    min-height: 8em;
+    width: 8em;
+    padding: 1em;
+
+}
+
+.services {
+    padding: 2em;
+}
+
+.services h1 {
+    text-align: center;
+}
+
+.serviceFlex {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.serviceItem {
+    padding: 1em;
+    margin-bottom: 2em;
+    max-width: 50em;
+    border-left: 3px solid orange;
+    display: flex;
+}
+
+.serviceItem img {
+    height: 8em;
+}
+
+.serviceItem ul {
+    list-style: none;
+}
+
+.services a {
+    transition: 0.5s ease;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    margin-top: 2em;
+    background: none;
+    color: black;
+    border: 1px solid black;
+    max-width: 50em;
+}
+
+.services a:hover {
+    transition: 0.5s ease;
+    background-color: rgba(50, 50, 50, 1);
+    color: white;
+}
+
+.footer {
+    display: flex;
+    padding: 4em;
+    background-color: #333;
+    color: white;
+}
+
+.footer ul {
+    list-style: none;
+    padding-top: 1em;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+.footer ul li img {
+    transition: .2s ease;
+    width: 4em;
+    height: 4em;
+}
+
+.footer ul li img:hover {
+    transition: .2s ease;
+    border-bottom: 5px solid skyblue;
+}
+
+.service-header {
+    text-align: center;
+    padding: .5em;
+    background-color: white;
+}
+
+.compServWrap {
+
+}
+
+.service-content-wrap {
+    padding: 1em;
+    background-color: white;
+}
+
+.service-content-wrap article {
+    max-width: 50em;
+    padding: 1em;
+    border-left: 5px solid green;
+}
+
+.flexArt {
+    display: flex;
+}
+
+.service-content-wrap ul {
+    list-style: none;
+}
+
+.price-header {
+    text-align: center;
+    padding: .5em;
+    background-color: forestgreen;
+    color: white;
+}
+
+.pricing-content {
+    padding: 1em;
+    padding-bottom: 5em;
+    background-color: forestgreen;
+    color: white;
+}
+
+.pricing-content h1 {
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+    padding: .5em;
+}
+
+.pricing-content-wrap {
+    display: flex;
+}
+
+.priceItem {
+    flex-basis: 30%;
+    max-width: 250px;
+}
+
+.aboutWrap {
+  background-color: white;
+}
+
+.aboutWrap h1 {
+  text-align: center;
+  padding: 1em;
+}
+
+.aboutItem {
+  display: flex;
+  padding: 1em;
+  max-width: 50em;
+  flex-wrap: wrap;
+}
+
+.separate img {
+  width: 35%;
+  display: block;
+  padding: 1em;
+}
+
+.aboutItem p {
+  padding: 1em;
+}
+
+#workBtn {
+  transition: .5s ease;
+  margin: 0 auto;
+  display: block;
+  background-color: white;
+  border: 1px solid black;
+  padding: 1em;
+  width: 100%;
+  height: 1em;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+}
+
+#workBtn:hover {
+  transition: .5s ease;
+  background-color: black;
+  color: white;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+.welcomeContent {
+    padding:.5em;
+    background-color: white;
+}
+
+.welcomeContent p {
+    width: 95%;
+    padding: .5em;
+}
+
+.offeredContent {
+    flex-wrap: wrap;
+}
+
+.services {
+    padding: 1em;
+}
+
+.services h1 {
+    text-align: center;
+}
+
+.serviceFlex {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .5em;
+}
+
+.serviceItem {
+    border-top: 3px solid orange;
+    border-left: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.serviceItem ul {
+    list-style: none;
+}
+
+.footer {
+    display: flex;
+    padding: 2em;
+    flex-wrap: wrap;
+}
+
+.footer ul li {
+    display: flex
+}
+
+.flexArt {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pricing-content-wrap {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.priceItem {
+    flex-basis: 100%;
+    padding: .5em;
+}
+
+.aboutItem {
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aboutItem hr {
+  transform: translate3d(90, 0, 0);
+}
+
+.separate img {
+  width: 75%;
+}
+
+
+
+	}
